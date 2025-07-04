@@ -61,12 +61,12 @@ CREATE TABLE gold.fact_sales (
 );
 
 -- Truncate tables
-TRUNCATE TABLE gold.dim_customer;
+TRUNCATE TABLE gold.dim_customers;
 TRUNCATE TABLE gold.dim_products;
 TRUNCATE TABLE gold.fact_sales;
 
 -- Load data from /tmp
-\copy gold.dim_customers FROM '/tmp/gold_datasets/dim_customer.csv' WITH (FORMAT csv, HEADER true);
+\copy gold.dim_customers FROM '/tmp/gold_datasets/dim_customers.csv' WITH (FORMAT csv, HEADER true);
 
 \copy gold.dim_products FROM '/tmp/gold_datasets/dim_products.csv' WITH (FORMAT csv, HEADER true);
 
