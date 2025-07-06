@@ -1,6 +1,6 @@
 # 📊 EDA Summary – SQL Analytics Project
 
-This document summarizes the results, insightss, and s from running the SQL scripts for exploratory data analysis and reporting.
+This document summarizes the results, insights from running the SQL scripts for exploratory data analysis and reporting.
 
 ***P.S***: we divide our data into `dimension`and `measure` to ease our analysis and insightss retrieval.
 A measure is an column which is either not numerical or if it's numerical it doesn't make sense to aggregate it (e.g: ID, product_name) while a `measure` is  numerical and it makes sense to aggregate it (sales, quantity, salary, age).
